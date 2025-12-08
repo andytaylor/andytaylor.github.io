@@ -7,7 +7,7 @@ anytime from the broker. The console will retrieve each page of messages afresh 
 
 ##### Filtering Messages
 
-The **Browse** tab can also filter messages using the JMS Message Selector Syntax as described in the [Artemis Filter Expression Documentation](https://activemq.apache.org/components/artemis/documentation/latest/filter-expressions.html).  For instance if you wanted to filter on messages
+The **Browse** tab can also filter messages using the JMS Message Selector Syntax as described in the [Artemis Filter Expression Documentation](https://artemis.apache.org/components/artemis/documentation/latest/filter-expressions.html).  For instance if you wanted to filter on messages
 that contained the Message Header myheader which was set to octopus, you would enter **myheader='octopus'** in the text box
 in the top left hand side of the tab and click search.
 

@@ -120,7 +120,7 @@ It is possible to view the contents of a message by clicking on the 3 dots to th
 Note that the body of the message may not be viewable if it is not of type Text Message. All other messages are shown as
 bytes and will be transformed depending on the **Browse Bytes Messages** setting which can be set in the **preferences**.
 
-> NOTE: large messages are also truncated to protect the browser this can be configured in Artemis [Address Settings](https://activemq.apache.org/components/artemis/documentation/latest/address-settings.html#address-settings)
+> NOTE: large messages are also truncated to protect the browser this can be configured in Artemis [Address Settings](https://artemis.apache.org/components/artemis/documentation/latest/address-settings.html#address-settings)
 
 
 >NOTE: The columns show can be configured by clicking on the *Manage Columns* link and selecting which columns should be shown.
@@ -332,7 +332,7 @@ By default the console is locked down to 'localhost', pay particular attention t
 
 #### MBean Access
 
-Access to MBeans is configured in ActiveMQ Artemis, see the [Management via JMX](https://activemq.apache.org/components/artemis/documentation/latest/management.html#management-via-jmx) chapter.
+Access to MBeans is configured in ActiveMQ Artemis, see the [Management via JMX](https://artemis.apache.org/components/artemis/documentation/latest/management.html#management-via-jmx) chapter.
 
 Certain screen and tab visibility is controlled by the access to a specific JMX Operation, for instance the **Create Queue** 
 tab is only shown if the user has access to the create queue JMX operation.
