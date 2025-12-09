@@ -18,7 +18,7 @@ The user documentation for earlier versions are also available on the <a href=".
 
 #### Examples:
 
-Examples can be found in the <a href="https://github.com/apache/activemq-artemis-examples/">Artemis Examples</a> repository.
+Examples can be found in the <a href="https://github.com/apache/artemis-examples/">Artemis Examples</a> repository.
 
 #### API
 

@@ -13,7 +13,7 @@
   {% assign component_dir = "artemis" %}
 {% endif %}
 #### Apache Artemis {{include.release.version}}  ({{include.release.release_date | date_to_string: "ordinal", "US"}})
-[Release Notes](release-notes-{{include.release.version}}) | [Git Report](commit-report-{{include.release.version}}) | [Documentation:]({{docs_prefix}}/{{docs_version}}) [HTML]({{docs_prefix}}/{{docs_version}}) / [PDF]({{docs_prefix}}/{{docs_version}}/book.pdf) |{% if include.examples_link %} [Examples](https://github.com/apache/activemq-artemis-examples/) |{% endif %} [Docker](https://hub.docker.com/r/apache/activemq-artemis/tags) | Java compatibility: **{{include.release.java_version}}**
+[Release Notes](release-notes-{{include.release.version}}) | [Git Report](commit-report-{{include.release.version}}) | [Documentation:]({{docs_prefix}}/{{docs_version}}) [HTML]({{docs_prefix}}/{{docs_version}}) / [PDF]({{docs_prefix}}/{{docs_version}}/book.pdf) |{% if include.examples_link %} [Examples](https://github.com/apache/artemis-examples/) |{% endif %} [Docker](https://hub.docker.com/r/apache/activemq-artemis/tags) | Java compatibility: **{{include.release.java_version}}**
 
 {% if include.is_current_release %}
   {% capture distro_url_base %}https://www.apache.org/dyn/closer.lua?filename={{project_dir}}/{{component_dir}}/{{include.release.version}}{% endcapture %}

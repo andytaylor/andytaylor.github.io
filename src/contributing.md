@@ -20,10 +20,10 @@ If you want to get your hands on the code here are the repos for all our compone
 
 |Component|Apache Git Repository|GitHub Mirror|
 |---|---|
-|Artemis|[artemis](https://gitbox.apache.org/repos/asf/activemq-artemis.git)|[artemis](https://github.com/apache/activemq-artemis)|
-|Artemis Console|[artemis-console](https://gitbox.apache.org/repos/asf/activemq-artemis-console.git)|[artemis-console](https://github.com/apache/activemq-artemis-console)|
-|Artemis Examples|[artemis-examples](https://gitbox.apache.org/repos/asf/activemq-artemis-examples.git)|[artemis-examples](https://github.com/apache/activemq-artemis-examples)|
-|Artemis Native|[artemis-native](https://gitbox.apache.org/repos/asf/activemq-artemis-native.git)|[artemis-native](https://github.com/apache/activemq-artemis-native)|
+|Artemis|[artemis](https://gitbox.apache.org/repos/asf/artemis.git)|[artemis](https://github.com/apache/artemis)|
+|Artemis Console|[artemis-console](https://gitbox.apache.org/repos/asf/artemis-console.git)|[artemis-console](https://github.com/apache/artemis-console)|
+|Artemis Examples|[artemis-examples](https://gitbox.apache.org/repos/asf/artemis-examples.git)|[artemis-examples](https://github.com/apache/artemis-examples)|
+|Artemis Native|[artemis-native](https://gitbox.apache.org/repos/asf/artemis-native.git)|[artemis-native](https://github.com/apache/artemis-native)|
 |Website|[artemis-website](https://gitbox.apache.org/repos/asf/artemis-website.git)|[artemis-website](https://github.com/apache/artemis-website)|
 
 #### Becoming a commmitter
