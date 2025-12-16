@@ -64,11 +64,12 @@ RELEASE_DIR="$ARTEMIS_DIR/target/checkout"
 
 LATEST_DOCS=$WEBSITE_DIR/src/components/artemis/documentation/latest/
 PRIOR_DOCS=$WEBSITE_DIR/src/components/artemis/documentation/previous/$PRIOR_VERSION/
+HACKING_GUIDE_DOCS=$WEBSITE_DIR/src/components/artemis/documentation/hacking-guide/
 
 LATEST_JAVADOCS=$WEBSITE_DIR/src/components/artemis/documentation/javadocs/javadoc-latest/
 NEW_DOCS=$RELEASE_DIR/artemis-website/target/classes/user-manual/
 NEW_JAVADOCS=$RELEASE_DIR/artemis-website/target/reports/apidocs/
-
+NEW_HACKING_GUIDE=$RELEASE_DIR/artemis-website/target/classes/hacking-guide/
 
 
 echo "Moving previous release docs, from $LATEST_DOCS to $PRIOR_DOCS"
@@ -83,6 +84,12 @@ rm -rf $LATEST_JAVADOCS
 echo "Copying new release javadocs, from $NEW_JAVADOCS to $LATEST_JAVADOCS"
 cp -aR $NEW_JAVADOCS. $LATEST_JAVADOCS
 
-git add $LATEST_DOCS $PRIOR_DOCS $LATEST_JAVADOCS
+echo "Clearing previous hacking-guide, from $HACKING_GUIDE_DOCS"
+rm -rf $HACKING_GUIDE_DOCS
+
+echo "Copying new hacking-guide, from $NEW_HACKING_GUIDE"
+cp -aR $NEW_HACKING_GUIDE. $HACKING_GUIDE_DOCS
+
+git add $LATEST_DOCS $PRIOR_DOCS $LATEST_JAVADOCS $HACKING_GUIDE_DOCS
 
 echo "Doc updates complete, check over git status"
