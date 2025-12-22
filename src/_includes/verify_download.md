@@ -2,7 +2,7 @@ It is essential that you verify the integrity of the downloaded files using the 
 
 The ASC signatures can be verified using PGP or GPG. Begin by following these steps:
 
-1.  Download the [KEYS](https://downloads.apache.org/activemq/KEYS) file.
+1.  Download the [KEYS](https://downloads.apache.org/artemis/KEYS) file.
 2.  Download the `.asc` signature for the relevant distribution file.
 3.  Verify the signature.
     - If using GPG:
