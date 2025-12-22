@@ -4,6 +4,15 @@ github:
   labels:
     - website
     - jekyll
+  enabled_merge_buttons:
+    # enable squash button:
+    squash:  true
+    # disable merge button:
+    merge:   false
+    # enable rebase button:
+    rebase:  true
+  autolink_jira:
+    - ARTEMIS
 jekyll:
    whoami: main
    target: asf-site
