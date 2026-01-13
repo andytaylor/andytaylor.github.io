@@ -5,6 +5,7 @@ title-class: page-title-artemis
 type: artemis
 ---
 
+**Note:** As part of [establishing Apache Artemis](/news/artemis-tlp) as an independent project, the [Maven groupId has switched to _org.apache.artemis_](/artemis-tlp-groupid-migration).
 
 ## Bugs Fixed
 
