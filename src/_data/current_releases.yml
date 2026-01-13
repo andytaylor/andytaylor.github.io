@@ -2,7 +2,7 @@
 artemis:
   - "2.44."
 artemis_console:
-  - "1.4."
+  - "1.5."
 classic:
   - "6.1."
   - "5.19."
