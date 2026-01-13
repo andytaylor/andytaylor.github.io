@@ -31,3 +31,7 @@ mean-time, development and releases will continue on existing paths.
 Stay tuned for more updates,
 
 The Apache ActiveMQ PMC
+
+<div class="alert alert-warning">
+UPDATE: As you probably know from reading this the new Apache Artemis website is now in place, with activity on establishing the new project now complete and work underway on initial Apache Artemis releases. Updated details for Artemis around <a href="/contact" class="alert-link">mailing lists</a>, <a href="/contributing" class="alert-link">contributing</a>, <a href="/issues" class="alert-link">reporting issues</a>, and more are now available on this new site.
+</div>
