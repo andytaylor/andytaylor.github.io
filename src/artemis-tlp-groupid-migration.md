@@ -5,11 +5,11 @@ title-class: page-title-artemis
 type: artemis
 ---
 
-With the move for Artemis to become an independent Apache project, the Maven groupId for Apache Artemis modules is changing from _org.apache.activemq_ over to _org.apache.artemis_ beginning with the Apache Artemis 2.50.0 release.
+With the [move for Artemis to become an independent Apache project](/news/artemis-tlp), the Maven groupId for Apache Artemis modules is changing from _org.apache.activemq_ over to _org.apache.artemis_ beginning with the Apache Artemis 2.50.0 and Artemis Console 1.5.0 releases.
 
 ## Dependency Update Example
 
-For example, if you used the following dependency declaration in your build:
+For example, if you originally used the following dependency declaration in your build:
 ```xml
     <dependency>
        <groupId>org.apache.activemq</groupId>
@@ -17,7 +17,7 @@ For example, if you used the following dependency declaration in your build:
        <version>2.50.0</version>
     </dependency>
 ```
-It should have its groupId updated to instead become:
+It should have its groupId updated to _org.apache.artemis_ instead, becoming:
 ```xml
     <dependency>
        <groupId>org.apache.artemis</groupId>
